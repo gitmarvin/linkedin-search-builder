@@ -5,7 +5,6 @@ import os
 prospect_list = []
 WRKBOOK = openpyxl.load_workbook('Key Accounts VP Level 2019-06-24.xlsx')
 SHEET = WRKBOOK['GetProspect Leads']
-final_string = ''
 
 
 def get_prospect_list():
@@ -26,6 +25,7 @@ def search_query_builder():
     f = open('search-string.txt', "w")
     f.write(search_string)
     f.close()
+
 
 if __name__ == '__main__':
     get_prospect_list()
