@@ -1,0 +1,397 @@
+Reference List
+
+Jan Mrosik
+Dr. André Hedler
+Alexander Pöschl
+Siddhartha Mishra
+Jörg Lützner
+Dr. Frank Schliep
+Christian Alexander Graf
+Nicola Ehrenberg-Uhlig
+Eckart von Westerholt
+Roland Busch
+Jutta Schiffers
+Sourav Dutta , MBA
+Dirk Adamczyk
+Dr. Oliver Maiwald
+Lüder Sachse
+Armin Gottschaller
+Markus Bergmann
+Kai Petrick
+Clemens Haberstroh
+Ralf Lamberti
+Dr. Kourosh Bahrami
+Frank Thomas
+Michael Kurtz
+Christoph Brenke
+Wolfgang Fleischmann
+Dirk Geisinger Dr.
+Atakan Thomas Leue
+Thomas Islinger
+Sajjad Khan
+Martin Schultz
+Kaufmann Josef Vib-Pa4
+Dr.lng. Hartmut Saljé
+Konrad Dr. Mueller-Auffermann
+Dr. Stefanie Lurz
+Rohde Thomas
+Hans-Joachim Harting
+Udo Richter
+Holger H. Stephan
+Jens Jessenberger
+Roland M.
+Dominik Bender
+Horst Gering
+Peter Janssen
+Christian Seydel
+Thilo Lutz
+Matthias Haake
+Kurt Steiner
+Thomas Frank
+Wolfgang Genius
+Thomas Frank
+Andreas Gruber
+Thomas Mueller
+Martin Schultz
+Klaus Hofmann
+Jörg Wortmann
+Michael Siegmund
+Ulrich Kugler
+Stephan Weiß
+Achim Keifert
+Michael Dr. Jochem
+Horst Gering
+Immanuel Schweizer
+Marc Hofmann
+Peter-Michael Mayer
+Jörg Liebel
+Wai Man Li
+Bert Oliver Schulze
+Rasmus Voigts
+Dimitris Milakis
+Marco Wendel
+Adam Rafinski
+Thomas VEZINET
+Dr. Peter Bork
+Michael Sonntag
+Harald Hofmann
+Kaiser Peter Michael
+Achim Zimmermann
+Peter Michael Follmann
+Thomas Schmid
+Oliver Tack
+Alexander Steil
+Thomas Gessner
+Erik Pohland
+Dr. Igor Pochorovski
+Thomas Pauly
+Michael Becker
+Sabine Philipp-May
+Holger Jordan
+Markus Eich
+Khalid H. A. Siddig
+Frank Mehring
+Robert Langer
+Garrit Fleischmann
+Michael Hartmann
+Tania vom Lehn
+Marzia Traverso
+Odilo Engel
+Manfred Schoelzke
+Attila Kovacs
+Carmen Krämer
+Thomas Schrüllkamp
+Michael Daiber
+
+Checklist
+
+Martin Isik
+Kevin Rogers
+Bernhard Schambeck
+Thom Brenner
+Philip Kreyenborg
+Christopher Tresp
+Dr. Michael Picard
+Dr. Martin Hölz
+Dr. Martin Nusswald
+Luca Porreca
+Christopher Antes
+Wilm Eggert
+Mattias Ulbrich
+Josef Haslbeck
+Helmut Meitner
+Kian Mossanen
+Martin Wernli
+Michael Hiller
+Mario Mittermair
+Clemens Honeder
+Thomas Aichinger
+Thomas Meixner
+Martin Zauner
+Dr. Georg Oberdammer
+Jesper Kjær Hansen
+Isabell Dietz
+Michael Todd
+Dr. Salima Douven
+Joachim Jaeckle
+Michaela Bessell
+Dr. Rahmyn Kress
+Florian Heinemann
+Marcel Bartling
+Sourav Dutta
+Werner Koestler
+Jürgen Bilo
+Alexander Dr. Sagel
+Steffen Jungclaus
+Jana Ellner-Beck
+Jan Terfehr
+Christian Fachat
+Khan, Sajjad
+Jan Brecht
+Donald Baumgaertner
+Thomas Bergner-Kahmann
+Alexander Hofmann
+Khaled Ibrahim
+Albrecht Ehlers
+Thomas Schattenfroh
+Dirk Wassmann
+Klaus Geissdoerfer
+Klaus Kimmelmann
+Steffen Allgoewer
+Dirk Mentgen
+Norbert Mittwollen
+Donya Amer
+Heike Knoll
+Andreas Mauer
+Dr.-Ing. Stefan Aßmann
+Ralf Göttel
+Patrick Vogl
+Michael Burth
+Lars Balzer
+Dr.-Ing. Volker G.
+Martin Weidlich
+Patrick Pernegger
+Stefan Latuski
+Juergen Webs
+Frank Eulitz
+Christoph Naumann
+Urban August
+Michael Peter
+Robert Neuhauser
+Jörgen Schulz
+René Borth
+Raphael Schulte
+Dr.-Ing. Jörg Neubrand
+Markus Bocianowski
+David Hogan
+Dr. Thomas Bornkessel
+Nuno T.
+Stewart Evans
+Kevin Daffey
+Erik Johann
+Cornelia Lueben
+Tammo Voigt
+Thomas Rohde
+Frank Scherhag
+Uwe Knotzer
+Heiko Held
+Luis Fernandes
+Dietmar Sporer
+Henning Stegmans
+Herbert Gray
+Michael Rendsburg
+Rene Noest-Luethi
+Bernd Hagmanns
+Holger Blumberg
+(Nicolaas) Ernst Rost
+Kenth Drott
+John van der Velden
+Julien Brunel
+Philipp Karmires
+Marco Colucci
+Francois Ichtertz
+Paul Borggreve
+Oliver Seifert
+Alex Gasser
+Matthias Altendorf
+Leonardo Greco
+Udo Arthur Aull
+Roland Denefleh
+Alexander Stamm
+Markus Fuchsberger
+Michal Ludwig
+Martin Fein
+Ulrich Kügler
+Gerhard Schiefer
+Klaus Glatz
+
+Prospect List
+
+("Martin" AND "Isik")
+("Kevin" AND "Rogers")
+("Bernhard" AND "Schambeck")
+("Thom" AND "Brenner")
+("Kai" AND "Petrick")
+("Philip" AND "Kreyenborg")
+("Wolfgang" AND "Genius")
+("Christopher" AND "Tresp")
+("Dr." AND "Michael Picard")
+("Dr." AND "Martin Hölz")
+("Dr." AND "Martin Nusswald")
+("Atakan" AND "Thomas Leue")
+("Luca" AND "Porreca")
+("Christopher" AND "Antes")
+("Wilm" AND "Eggert")
+("Dominik" AND "Bender")
+("Mattias" AND "Ulbrich")
+("Kaufmann" AND "Josef Vib-Pa4")
+("Josef" AND "Haslbeck")
+("Dr." AND "Stefanie Lurz")
+("Helmut" AND "Meitner")
+("Kian" AND "Mossanen")
+("Martin" AND "Wernli")
+("Michael" AND "Hiller")
+("Mario" AND "Mittermair")
+("Clemens" AND "Honeder")
+("Thomas" AND "Aichinger")
+("Thomas" AND "Meixner")
+("Martin" AND "Zauner")
+("Dr." AND "Georg Oberdammer")
+("Jesper" AND "Kjær Hansen")
+("Isabell" AND "Dietz")
+("Wolfgang" AND "Fleischmann")
+("Michael" AND "Todd")
+("Christian" AND "Alexander Graf")
+("Dr." AND "Kourosh Bahrami")
+("Dr." AND "Salima Douven")
+("Joachim" AND "Jaeckle")
+("Michaela" AND "Bessell")
+("Dr." AND "Rahmyn Kress")
+("Florian" AND "Heinemann")
+("Dr." AND "Frank Schliep")
+("Marcel" AND "Bartling")
+("Hans-Joachim" AND "Harting")
+("Horst" AND "Gering")
+("Sourav" AND "Dutta")
+("Dr." AND "Oliver Maiwald")
+("Jutta" AND "Schiffers")
+("Werner" AND "Koestler")
+("Armin" AND "Gottschaller")
+("Jürgen" AND "Bilo")
+("Jörg" AND "Lützner")
+("Alexander" AND "Dr. Sagel")
+("Jens" AND "Jessenberger")
+("Steffen" AND "Jungclaus")
+("Lüder" AND "Sachse")
+("Ralf" AND "Lamberti")
+("Jana" AND "Ellner-Beck")
+("Jan" AND "Terfehr")
+("Nicola" AND "Ehrenberg-Uhlig")
+("Christian" AND "Fachat")
+("Alexander" AND "Pöschl")
+("Khan," AND "Sajjad")
+("Jan" AND "Brecht")
+("Donald" AND "Baumgaertner")
+("Thomas" AND "Bergner-Kahmann")
+("Alexander" AND "Hofmann")
+("Khaled" AND "Ibrahim")
+("Albrecht" AND "Ehlers")
+("Thomas" AND "Schattenfroh")
+("Dirk" AND "Wassmann")
+("Dirk" AND "Adamczyk")
+("Markus" AND "Bergmann")
+("Klaus" AND "Geissdoerfer")
+("Eckart" AND "von Westerholt")
+("Klaus" AND "Kimmelmann")
+("Steffen" AND "Allgoewer")
+("Dirk" AND "Mentgen")
+("Norbert" AND "Mittwollen")
+("Donya" AND "Amer")
+("Dr." AND "André Hedler")
+("Heike" AND "Knoll")
+("Andreas" AND "Mauer")
+("Dr.-Ing." AND "Stefan Aßmann")
+("Udo" AND "Richter")
+("Ralf" AND "Göttel")
+("Patrick" AND "Vogl")
+("Michael" AND "Burth")
+("Christoph" AND "Brenke")
+("Lars" AND "Balzer")
+("Dr.-Ing." AND "Volker G.")
+("Martin" AND "Weidlich")
+("Patrick" AND "Pernegger")
+("Stefan" AND "Latuski")
+("Juergen" AND "Webs")
+("Frank" AND "Eulitz")
+("Christoph" AND "Naumann")
+("Urban" AND "August")
+("Michael" AND "Peter")
+("Roland" AND "Busch")
+("Jan" AND "Mrosik")
+("Robert" AND "Neuhauser")
+("Jörgen" AND "Schulz")
+("Jörg" AND "Wortmann")
+("René" AND "Borth")
+("Raphael" AND "Schulte")
+("Peter" AND "Janssen")
+("Dr.lng." AND "Hartmut Saljé")
+("Thilo" AND "Lutz")
+("Dr.-Ing." AND "Jörg Neubrand")
+("Markus" AND "Bocianowski")
+("Thomas" AND "Schrüllkamp")
+("Matthias" AND "Haake")
+("Christian" AND "Seydel")
+("David" AND "Hogan")
+("Dr." AND "Thomas Bornkessel")
+("Kurt" AND "Steiner")
+("Nuno" AND "T.")
+("Stewart" AND "Evans")
+("Dirk" AND "Geisinger Dr.")
+("Kevin" AND "Daffey")
+("Erik" AND "Johann")
+("Cornelia" AND "Lueben")
+("Tammo" AND "Voigt")
+("Martin" AND "Schultz")
+("Thomas" AND "Rohde")
+("Frank" AND "Scherhag")
+("Uwe" AND "Knotzer")
+("Siddhartha" AND "Mishra")
+("Heiko" AND "Held")
+("Luis" AND "Fernandes")
+("Dietmar" AND "Sporer")
+("Henning" AND "Stegmans")
+("Andreas" AND "Gruber")
+("Herbert" AND "Gray")
+("Michael" AND "Rendsburg")
+("Michael" AND "Siegmund")
+("Rene" AND "Noest-Luethi")
+("Konrad" AND "Dr. Mueller-Auffermann")
+("Thomas" AND "Islinger")
+("Bernd" AND "Hagmanns")
+("Holger" AND "Blumberg")
+("Michael" AND "Kurtz")
+("(Nicolaas)" AND "Ernst Rost")
+("Kenth" AND "Drott")
+("John" AND "van der Velden")
+("Julien" AND "Brunel")
+("Philipp" AND "Karmires")
+("Marco" AND "Colucci")
+("Francois" AND "Ichtertz")
+("Paul" AND "Borggreve")
+("Thomas" AND "Frank")
+("Oliver" AND "Seifert")
+("Holger" AND "H. Stephan")
+("Alex" AND "Gasser")
+("Clemens" AND "Haberstroh")
+("Matthias" AND "Altendorf")
+("Leonardo" AND "Greco")
+("Udo" AND "Arthur Aull")
+("Roland" AND "Denefleh")
+("Alexander" AND "Stamm")
+("Markus" AND "Fuchsberger")
+("Michal" AND "Ludwig")
+("Martin" AND "Fein")
+("Ulrich" AND "Kügler")
+("Gerhard" AND "Schiefer")
+("Klaus" AND "Glatz")
+
