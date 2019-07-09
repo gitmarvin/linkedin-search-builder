@@ -1,29 +1,29 @@
 import openpyxl
+import sys
 
-workbook_name = input('Workbook name: ')
-WRKBOOK = openpyxl.load_workbook(workbook_name)
-SHEET = WRKBOOK['GetProspect Leads']
+workbook_name = sys.argv[1]
+wb = openpyxl.load_workbook(workbook_name)
+sh = wb[wb.sheetnames[0]]
 prospect_list = []
 checklist = []
 reference_list = []
 
 
 def get_prospect_list_single():
-    maxrange = input('Number of entries: ')
     name_column = input('Target column: ')
-    for i in range(2, int(maxrange)):
-        prospect_name_single = SHEET.cell(row=i, column=int(name_column)).value
+    for i in range(2, sh.max_row):
+        prospect_name_single = sh.cell(row=i, column=int(name_column)).value
         prospect_name_formatted = '(' + '"' + prospect_name_single + '"' + ")"
         prospect_list.append(prospect_name_formatted)
         checklist.append(prospect_name_single)
 
+
 def get_prospect_list_duple():
-    maxrange = input('Number of entries: ')
     column_first_name = input('Column with first name: ')
     column_last_name = input('Column with last name: ')
-    for i in range(2, int(maxrange)):
-        prospect_first_name = SHEET.cell(row=i, column=int(column_first_name)).value
-        prospect_last_name = SHEET.cell(row=i, column=int(column_last_name)).value
+    for i in range(2, sh.max_row):
+        prospect_first_name = sh.cell(row=i, column=int(column_first_name)).value
+        prospect_last_name = sh.cell(row=i, column=int(column_last_name)).value
         #prospect_name_formatted = '(' + '"' + prospect_first_name + '"' + ' AND ' + '"' + prospect_last_name + '"' + ")"
         prospect_name_formatted = '(' + '"' + prospect_first_name  + ' ' + prospect_last_name + '"' + ")"
         #prospect_name_formatted = '(' + prospect_first_name + ' ' + prospect_last_name + ")"
@@ -92,27 +92,17 @@ def dump_lists():
 
 
 if __name__ == '__main__':
-    query = input('Do you want a string or reference?(1/2) ')
 
-    #print('Running script..')
-    if query == '1':
-        type = input('Single or duple? (1/2): ')
-        if type == '1':
-            get_prospect_list_single()
-            search_query_builder()
-        elif type == '2':
-            get_prospect_list_duple()
-            search_query_builder()
-        else:
-            print('invalid input!')
-    elif query == '2':
-        # not fixed in duple update
-        get_prospect_list()
-        build_reference_list()
-        check_missing_leads()
+    type = input('Single or duple? (1/2): ')
+    if type == '1':
+        get_prospect_list_single()
+        search_query_builder()
+    elif type == '2':
+        get_prospect_list_duple()
+        search_query_builder()
     else:
         print('invalid input!')
 
-    print('Dumping lists..')
-    dump_lists()
+    #print('Dumping lists..')
+    #dump_lists()
     print('Operation completed!')
