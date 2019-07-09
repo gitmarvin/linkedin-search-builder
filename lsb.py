@@ -1,18 +1,35 @@
 import openpyxl
 
-
-WRKBOOK = openpyxl.load_workbook('Key Accounts VP Level 2019-06-24.xlsx')
+workbook_name = input('Workbook name: ')
+WRKBOOK = openpyxl.load_workbook(workbook_name)
 SHEET = WRKBOOK['GetProspect Leads']
 prospect_list = []
 checklist = []
 reference_list = []
 
 
-def get_prospect_list():
-    for i in range(2, 169):
-        prospect_first_name = SHEET.cell(row=i, column=1).value
-        prospect_last_name = SHEET.cell(row=i, column=2).value
-        prospect_name_formatted = '(' + '"' + prospect_first_name + '"' + ' AND ' + '"' + prospect_last_name + '"' + ")"
+def get_prospect_list_single():
+    maxrange = input('Number of entries: ')
+    name_column = input('Target column: ')
+    for i in range(2, int(maxrange)):
+        prospect_name_single = SHEET.cell(row=i, column=int(name_column)).value
+        #prospect_last_name = SHEET.cell(row=i, column=2).value
+        #prospect_name_formatted = '(' + '"' + prospect_first_name + '"' + ' AND ' + '"' + prospect_last_name + '"' + ")"
+        prospect_name_formatted = '(' + '"' + prospect_name_single + '"' + ")"
+        #prospect_name_formatted = '(' + prospect_first_name + ' ' + prospect_last_name + ")"
+        #prospect_full_name = str(prospect_first_name) + ' ' + str(prospect_last_name)
+        prospect_list.append(prospect_name_formatted)
+        checklist.append(prospect_name_single)
+
+def get_prospect_list_duple():
+    maxrange = input('Number of entries: ')
+    column_first_name = input('Column with first name: ')
+    column_last_name = input('Column with last name: ')
+    for i in range(2, int(maxrange)):
+        prospect_first_name = SHEET.cell(row=i, column=int(column_first_name)).value
+        prospect_last_name = SHEET.cell(row=i, column=int(column_last_name)).value
+        #prospect_name_formatted = '(' + '"' + prospect_first_name + '"' + ' AND ' + '"' + prospect_last_name + '"' + ")"
+        prospect_name_formatted = '(' + '"' + prospect_first_name  + ' ' + prospect_last_name + '"' + ")"
         #prospect_name_formatted = '(' + prospect_first_name + ' ' + prospect_last_name + ")"
         prospect_full_name = str(prospect_first_name) + ' ' + str(prospect_last_name)
         prospect_list.append(prospect_name_formatted)
@@ -81,11 +98,19 @@ def dump_lists():
 if __name__ == '__main__':
     query = input('Do you want a string or reference?(1/2) ')
 
-    print('Running script..')
+    #print('Running script..')
     if query == '1':
-        get_prospect_list()
-        search_query_builder()
+        type = input('Single or duple? (1/2): ')
+        if type == '1':
+            get_prospect_list_single()
+            search_query_builder()
+        elif type == '2':
+            get_prospect_list_duple()
+            search_query_builder()
+        else:
+            print('invalid input!')
     elif query == '2':
+        # not fixed in duple update
         get_prospect_list()
         build_reference_list()
         check_missing_leads()
