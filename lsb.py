@@ -13,11 +13,7 @@ def get_prospect_list_single():
     name_column = input('Target column: ')
     for i in range(2, int(maxrange)):
         prospect_name_single = SHEET.cell(row=i, column=int(name_column)).value
-        #prospect_last_name = SHEET.cell(row=i, column=2).value
-        #prospect_name_formatted = '(' + '"' + prospect_first_name + '"' + ' AND ' + '"' + prospect_last_name + '"' + ")"
         prospect_name_formatted = '(' + '"' + prospect_name_single + '"' + ")"
-        #prospect_name_formatted = '(' + prospect_first_name + ' ' + prospect_last_name + ")"
-        #prospect_full_name = str(prospect_first_name) + ' ' + str(prospect_last_name)
         prospect_list.append(prospect_name_formatted)
         checklist.append(prospect_name_single)
 
